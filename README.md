@@ -1,5 +1,6 @@
 # git-demo
 Simple repo to demo some git features
+This repo is gonna be used to demo some git features
 
 
 ## Git rebase
