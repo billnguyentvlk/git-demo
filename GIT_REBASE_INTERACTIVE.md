@@ -20,6 +20,14 @@ If, on the other hand, you want to change the actual **content** of your last co
 You need to be careful with this technique because amending changes the **SHA-1** of the commit. It’s like a very small rebase — don’t amend your last commit if you’ve already pushed it.
 
 
+### Tips
+
+An amended commit may (or may not) need an amended commit message
+When you amend a commit, you have the opportunity to change both the commit message and the content of the commit. If you amend the content of the commit substantially, you should almost certainly update the commit message to reflect that amended content.
+
+On the other hand, if your amendments are suitably trivial (fixing a silly typo or adding a file you forgot to stage) such that the earlier commit message is just fine, you can simply make the changes, stage them, and avoid the unnecessary editor session entirely with:
+
+$ git commit --amend --no-edit
 
 ## Section 2
 
