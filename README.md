@@ -6,7 +6,7 @@ Simple repo to demo some git features
 
 **Rebase** means Reapply commits on top of another base tip
 
-- Before:
+- BEFORE:
 
 ```
           A---B---C---C1---C2 topic
@@ -14,13 +14,13 @@ Simple repo to demo some git features
     D---E---F---G---G1---G2 master
 ```
 
-- Action:
+- ACTION:
 
 `git checkout topic`
 
 `git rebase master`
 
-- After: 
+- AFTER: 
 
 ```
                           A'--B'--C'---C1'---C2' topic
