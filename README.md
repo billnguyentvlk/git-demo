@@ -9,9 +9,9 @@ Simple repo to demo some git features
 - Before:
 
 ```
-          A---B---C topic
+          A---B---C---C1---C2 topic
          /
-    D---E---F---G master
+    D---E---F---G---G1---G2 master
 ```
 
 - Action:
@@ -23,7 +23,7 @@ Simple repo to demo some git features
 - After: 
 
 ```
-                  A'--B'--C' topic
-                 /
-    D---E---F---G master
+                          A'--B'--C'---C1'---C2' topic
+                          /
+    D---E---F---G---G1---G2 master
 ```
