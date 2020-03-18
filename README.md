@@ -2,6 +2,7 @@
 Simple repo to demo some git features
 This repo is gonna be used to demo some git features
 
+In this demo we are going to go though `git rebase` and `git rebase -i`
 
 ## Git rebase
 
